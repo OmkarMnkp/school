@@ -1,0 +1,89 @@
+.custom-carousel .carousel-item {
+  height: 500px; 
+}
+
+.custom-carousel .carousel-img {
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.carousel-caption {
+  bottom: 20%; 
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 20px; 
+  border-radius: 10px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.carousel-caption h3 {
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #fff; 
+  margin-bottom: 0.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem; 
+  color: #ddd; 
+}
+
+.home-heading {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0d6efd;
+  text-transform: uppercase; 
+}
+
+.home-description {
+  font-size: 1.25rem; 
+  margin-bottom: 2rem;
+  color: #333; 
+  line-height: 1.5; 
+}
+
+.home-button {
+  font-size: 1.25rem; 
+  padding: 0.75rem 1.5rem;
+  background-color: #0d6efd; 
+  border-color: #0d6efd;
+  transition: background-color 0.3s, border-color 0.3s;
+  border-radius: 5px; 
+}
+
+.home-button:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .custom-carousel .carousel-item {
+    height: 300px; 
+  }
+
+  .carousel-caption {
+    padding: 10px; 
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem; 
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; 
+  }
+
+  .home-heading {
+    font-size: 2rem; 
+  }
+
+  .home-description {
+    font-size: 1rem; 
+  }
+
+  .home-button {
+    font-size: 1rem; 
+    padding: 0.5rem 1rem;
+  }
+}

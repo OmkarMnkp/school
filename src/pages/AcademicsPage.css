@@ -1,0 +1,71 @@
+.academics-container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 2px solid #e3e3e3;
+}
+
+.academics-heading {
+  margin-bottom: 1rem;
+  color: #0d6efd;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.academics-section {
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.academics-section:hover {
+  transform: translateY(-5px);
+}
+
+.academics-section h3 {
+  color: #0d6efd;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.academics-section h4 {
+  color: #0d6efd;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.academics-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.curriculum-list {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+  padding-left: 0;
+}
+
+.curriculum-list li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.teaching-methods {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.teaching-methods:hover {
+  transform: translateY(-5px);
+}
